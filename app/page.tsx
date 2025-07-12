@@ -117,16 +117,16 @@
 //   );
 // }
 
-import Header from "../components/Header";
-import Hero from "../components/Hero";
-import AppPreview from "../components/AppPreview"; // 👈 add this
+import Header from "@/components/Header";
+import Hero from "@/components/Hero";
+// import AppPreview from "../components/AppPreview";
 
 export default function Home() {
   return (
     <>
       <Header />
       <Hero />
-      <AppPreview /> {/* 👈 now rendering App section */}
+      {/* <AppPreview /> 👈 now rendering App section */}
     </>
   );
 }
